@@ -1,7 +1,5 @@
 streamlit
 streamlit-lottie
-json
-pickle
 pandas
 numpy
 matplotlib
