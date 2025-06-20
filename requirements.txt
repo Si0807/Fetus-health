@@ -1,7 +1,6 @@
 streamlit
-streamlit_lottie
+streamlit-lottie
 json
-streamlit.components.v1
 pickle
 pandas
 numpy
