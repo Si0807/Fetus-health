@@ -5,10 +5,10 @@ from streamlit_lottie import st_lottie
 import streamlit.components.v1 as components
 
 # scaler loading
-scaler = pickle.load(open('../scaler_MinMax.sav', 'rb'))
+scaler = pickle.load(open('scaler_MinMax.sav', 'rb'))
 
 # Model loading
-model=pickle.load(open('../model_RandomForest.sav','rb'))
+model=pickle.load(open('model_RandomForest.sav','rb'))
 # method to load animation
 def load_lottie(filepath:str):
     with open(filepath,'r') as f:
