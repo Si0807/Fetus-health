@@ -3,5 +3,6 @@ streamlit-lottie
 pandas
 numpy
 matplotlib
+scikit-learn
 
 
