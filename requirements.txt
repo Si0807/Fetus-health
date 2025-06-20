@@ -3,4 +3,8 @@ streamlit_lottie
 json
 streamlit.components.v1
 pickle
+pandas
+numpy
+matplotlib
+
 
