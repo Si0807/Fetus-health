@@ -1,7 +1,7 @@
 import streamlit.components.v1 as components
 import streamlit as st
 
-col1,col2,col3=st.columns([1,1,1])
+col1,col2,col3=st.columns([2,2,2])
 
 with col1:
     components.html("""
