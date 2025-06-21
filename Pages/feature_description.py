@@ -196,7 +196,7 @@ with col3:
             font-family: 'Cormorant Garamond', serif;
             color: white;
             backdrop-filter: blur(5px);
-            width:250px;
+            width:180px;
             height:180px;
         ">
             <h4 style="color: #FF6500;">Histogram Mean</h4>
