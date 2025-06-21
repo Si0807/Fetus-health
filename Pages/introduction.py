@@ -18,7 +18,7 @@ animation=load_lottie_animation('Fetus_json_animation.json')
 st.set_page_config(
     page_title="Fetal Health Prediction",
     layout="wide",
-    initial_sidebar_state="collapsed"
+    initial_sidebar_state="auto"
 )
 
 # streamlit code
@@ -200,4 +200,4 @@ function typeWriter2() {
 
 typeWriter1();
 </script>
-""", height=900)
+""", height=1500)
