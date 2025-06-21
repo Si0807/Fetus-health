@@ -79,22 +79,22 @@ with col1:
 
 with col2:
     components.html("""
-    <div style="
-        background-color: rgba(255, 255, 255, 0.1);
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-        margin: 5px;
-        font-family: 'Cormorant Garamond', serif;
-        color: white;
-        backdrop-filter: blur(5px);
-        width:300px;
-        height:150px;
-    ">
-        <h4 style="color: #FF6500;">Accelerations</h4>
-        <p>Short-term increases in FHR above the baseline, usually in response to fetal movements or uterine contractions — a positive sign of fetal well-being.</p>
-    </div>
-    """,height=200)
+        <div style="
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            margin: 5px;
+            font-family: 'Cormorant Garamond', serif;
+            color: white;
+            backdrop-filter: blur(5px);
+            width:300px;
+            height:150px;
+        ">
+            <h4 style="color: #FF6500;">Accelerations</h4>
+            <p>Short-term increases in FHR above the baseline, usually in response to fetal movements or uterine contractions — a positive sign of fetal well-being.</p>
+        </div>
+        """,height=200)
 
     components.html("""
             <div style="
@@ -154,7 +154,8 @@ with col3:
                 <p>	The middle value of the FHR distribution.</p>
             </div>
             """, height=200)
-              components.html("""
+
+    components.html("""
         <div style="
             background-color: rgba(255, 255, 255, 0.1);
             padding: 20px;
@@ -191,20 +192,20 @@ with col3:
         """, height=200)
 
 
-        components.html("""
-            <div style="
-                background-color: rgba(255, 255, 255, 0.1);
-                padding: 20px;
-                border-radius: 10px;
-                box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-                margin: 5px;
-                font-family: 'Cormorant Garamond', serif;
-                color: white;
-                backdrop-filter: blur(5px);
-                width:300px;
-                height:150px;
-            ">
-                <h4 style="color: #FF6500;">Histogram Mean</h4>
-                <p>The average FHR.</p>
-            </div>
-            """, height=200)
+    components.html("""
+        <div style="
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            margin: 5px;
+            font-family: 'Cormorant Garamond', serif;
+            color: white;
+            backdrop-filter: blur(5px);
+            width:300px;
+            height:150px;
+        ">
+            <h4 style="color: #FF6500;">Histogram Mean</h4>
+            <p>The average FHR.</p>
+        </div>
+        """, height=200)
