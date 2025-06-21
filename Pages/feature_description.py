@@ -76,43 +76,6 @@ with col1:
         </div>
         """, height=200)
 
-    components.html("""
-        <div style="
-            background-color: rgba(255, 255, 255, 0.1);
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-            margin: 5px;
-            font-family: 'Cormorant Garamond', serif;
-            color: white;
-            backdrop-filter: blur(5px);
-            width:300px;
-            height:150px;
-        ">
-            <h4 style="color: #FF6500;">Histogram Mode</h4>
-            <p>The most frequent FHR value.</p>
-        </div>
-        """, height=200)
-
-    components.html("""
-        <div style="
-            background-color: rgba(255, 255, 255, 0.1);
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-            margin: 5px;
-            font-family: 'Cormorant Garamond', serif;
-            color: white;
-            backdrop-filter: blur(5px);
-            width:300px;
-            height:150px;
-        ">
-            <h4 style="color: #FF6500;">Histogram Variance</h4>
-            <p>Statistical spread/variability in FHR data.</p>
-        </div>
-        """, height=200)
-
-
 
 with col2:
     components.html("""
@@ -170,23 +133,7 @@ with col2:
             """, height=200)
 
 
-    components.html("""
-            <div style="
-                background-color: rgba(255, 255, 255, 0.1);
-                padding: 20px;
-                border-radius: 10px;
-                box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-                margin: 5px;
-                font-family: 'Cormorant Garamond', serif;
-                color: white;
-                backdrop-filter: blur(5px);
-                width:300px;
-                height:150px;
-            ">
-                <h4 style="color: #FF6500;">Histogram Mean</h4>
-                <p>The average FHR.</p>
-            </div>
-            """, height=200)
+    
 
 
 with col3:
@@ -205,5 +152,59 @@ with col3:
             ">
                 <h4 style="color: #FF6500;">Histogram Median</h4>
                 <p>	The middle value of the FHR distribution.</p>
+            </div>
+            """, height=200)
+              components.html("""
+        <div style="
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            margin: 5px;
+            font-family: 'Cormorant Garamond', serif;
+            color: white;
+            backdrop-filter: blur(5px);
+            width:300px;
+            height:150px;
+        ">
+            <h4 style="color: #FF6500;">Histogram Mode</h4>
+            <p>The most frequent FHR value.</p>
+        </div>
+        """, height=200)
+
+    components.html("""
+        <div style="
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            margin: 5px;
+            font-family: 'Cormorant Garamond', serif;
+            color: white;
+            backdrop-filter: blur(5px);
+            width:300px;
+            height:150px;
+        ">
+            <h4 style="color: #FF6500;">Histogram Variance</h4>
+            <p>Statistical spread/variability in FHR data.</p>
+        </div>
+        """, height=200)
+
+
+        components.html("""
+            <div style="
+                background-color: rgba(255, 255, 255, 0.1);
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+                margin: 5px;
+                font-family: 'Cormorant Garamond', serif;
+                color: white;
+                backdrop-filter: blur(5px);
+                width:300px;
+                height:150px;
+            ">
+                <h4 style="color: #FF6500;">Histogram Mean</h4>
+                <p>The average FHR.</p>
             </div>
             """, height=200)
